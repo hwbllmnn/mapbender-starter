@@ -25,3 +25,4 @@ app/console assets:install --symlink web
 app/console doctrine:database:create
 app/console doctrine:schema:create
 
+app/console mapbender:resetroot

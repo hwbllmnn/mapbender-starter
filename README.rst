@@ -99,6 +99,10 @@ write into the application/app/cache and application/app/logs directories.
 
    before and after installing the assets.
 
+5. Initialize the superuser by running::
+
+    app/console assets:resetroot
+
 Running
 -------
 Symfony2 uses front-end controllers, which are located in the application/web
