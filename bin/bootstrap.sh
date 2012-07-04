@@ -14,6 +14,10 @@ cd application/mapbender/src/Mapbender/CoreBundle/Resources/public/mapquery/lib
 
 cd "$start/mapbender-starter/application"
 
+# mapbender does not ship with a default parameters ini, but it provides
+# a template that can be used as one. So do that
+cp app/config/parameters.ini.dist app/config/parameters.ini
+
 # Install assets
 app/console assets:install --symlink web
 
