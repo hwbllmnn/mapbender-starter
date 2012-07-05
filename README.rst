@@ -101,7 +101,7 @@ write into the application/app/cache and application/app/logs directories.
 
 5. Initialize the superuser by running::
 
-    app/console assets:resetroot
+    app/console mapbender:resetroot
 
 Running
 -------
